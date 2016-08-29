@@ -1,5 +1,5 @@
 FROM bd2kbdds/base_image
 
-COPY picard/ /usr/local/picard/
+COPY default/ /usr/local/picard/
 
 ENV JAVA_JAR_PATH "/usr/local/picard/"
