@@ -1,4 +1,4 @@
-FROM bd2kbdds/base_image
+FROM ubuntu:16.04
 
 COPY default/ /usr/local/picard/
 
