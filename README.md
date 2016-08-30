@@ -3,7 +3,7 @@
 #Build the images using respective Dockerfile for each tool
 
 #Picard
-docker build https://github.com/poojavade/GlobusGenomics_Tools.git#picard
+docker build -t bd2kbdds/picard_test3 https://github.com/poojavade/GlobusGenomics_Tools.git#master:picard
 
 #GATK3
-docker build https://github.com/poojavade/GlobusGenomics_Tools.git#gatk3
+docker build -t bd2kbdds/gatk3_test3 https://github.com/poojavade/GlobusGenomics_Tools.git#master:GATK3
